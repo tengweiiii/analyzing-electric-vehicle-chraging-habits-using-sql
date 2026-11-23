@@ -19,7 +19,7 @@ WHERE user_type = 'Shared'
 GROUP BY garage_id
 ORDER BY num_unique_users DESC;
 
--- Think of the query as a sequence of steps:
+-- Understand the query execution
 -- 1. FROM: Retrieve data from the charging sessions table.
 -- 2. WHERE: Keep only Shared charging sessions.
 -- 3. GROUP BY: Group the records by garage.
