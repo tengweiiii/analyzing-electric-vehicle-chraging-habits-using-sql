@@ -17,6 +17,7 @@ FROM VEHICLES.CHARGING_SESSIONS
 WHERE user_type = 'Shared'
 GROUP BY user_id
 HAVING AVG(duration_hours) > 10
+ORDER BY AVG(duration_hours) DESC;  
 
 -- Understand the query execution
 -- 1. FROM: Retrieve the charging session records.
