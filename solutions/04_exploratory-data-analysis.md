@@ -218,8 +218,3 @@ This project used SQL to analyse shared EV charging behaviour across apartment g
 The results can help apartment building managers better understand demand patterns and consider ways to improve shared charging station availability.
 
 Further analysis using the number of charging ports, total daily usage, and actual charging time could provide a more complete picture of charging station utilisation.
-```
-
-**Suggested filename:** `ev_charging_habits_sql_analysis.md`
-
-You can save it using VS Code, Jupyter Notebook, or any text editor.
